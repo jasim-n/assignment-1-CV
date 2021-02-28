@@ -21,13 +21,13 @@ div{
     margin: auto;
 
 }
+
 ul {
     
     list-style-position: inside;
+    list-style-type: none;
 }
-.b{
-    
-}
+
 .picContainer{
     background-image: url(cvimg.jpg);
     background-position: center;
@@ -35,12 +35,11 @@ ul {
     background-position-x: 35px;
     width: 200px;
     height:200px;
+    margin: auto;
     left:34px;
     border-radius: 100px;
 }
-ul{
-    list-style-type: none;
-}
+
 .icon,.fab{
     width: 10%;
 }
@@ -52,7 +51,8 @@ i{
     
 }
 .c{
-    width: 41%;
+    width: 30%;
+    word-wrap: break-word;
     padding: 5px;
     border: black 3px solid;
     margin-right: 10px;
@@ -63,10 +63,11 @@ i{
 
 .style{
     border:solid 3px;
-    padding: 5px;
+    padding: 10px;
     width: 200px;
     border-color: #5f9ea0;
-    margin: auto;
+    margin: 20px auto 20px auto;
+
 }
 
 body {
